@@ -1,0 +1,191 @@
+{
+  "main": {
+    "name":"Le Tan Luc",
+    "occupation":"Fullstack Developer",
+    "description":"I am an enthusiastic, self-motivated, reliable, responsible and hardworking person. I am a mature team worker and adaptable to all challenging situations. I am able to work well both in a team environment as well as using own initiative. I am able to work well under pressure and adhere to strict deadlines.",
+    "image":"profilepic.jpg",
+    "bio":"I do the work I do because I love it. Keep simple, everything possible. I like the industry. I like the people I meet. I like to talk shop. I embrace the nerd. I like to make the web a better place. Hopefully we cross paths in the real world someday and we can make it a better place together.",
+    "contactmessage":"I am a senior fullstack web developer. If you feel interested in my little CV, please get in touch with me via email.",
+    "email": "luclt399471@gmail.com",
+    "phone": "0963-961-399",
+    "address":{
+      "street":"184/25 Bui Van Ngu, Hiep Thanh Ward, District 12",
+      "city":"Ho Chi Minh city",
+      "state":"",
+      "zip": "70000"
+    },
+    "website": "http://www.lucle.com",
+    "resumedownload":"https://www.linkedin.com/in/l%E1%BB%B1c-l%C3%AA-t%E1%BA%A5n-a4834964/",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/leelux",
+        "className":"fa fa-facebook"
+      },      
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/l%E1%BB%B1c-l%C3%AA-t%E1%BA%A5n-a4834964/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/lucle",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"skype",
+        "url":"http://skype.com",
+        "className":"fa fa-skype"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Over 5 years of experiences in software engineering. 3 years+ of experience .Net developer, experiences on working with ASP.NET - applications from small to big scale with full understanding of most of the software development process models: waterfall, SRUM.",
+    "education":[
+      {
+        "school":"FPT-Aptech",
+        "degree":"Higher Diploma in Software Engineering (HDSE)",
+        "graduated":"2011",
+        "description":"I was teached about technical with programming language such as: Java, C#, ASP.NET. About web applition is: HTML, JS, Javascript, CSSS. And tool: MSSQL, Netbean, Visual Studio, Notepad++, SVN."
+      }
+    ],
+    "work":[
+      {
+        "company":"Somotsoft",
+        "title":"Fullstack Developer",
+        "years":"May 2016 - Present",
+        "description":"Responsibilities: Developing new features for the production of a web application, Handling bugs raised by customers/QA, Support team member to solve problems while working, Contribute ideas or solutions to team. Technologies: C#, ASP.NET, VB.NET, Ruby, Ruby on Rails, CoffeeScript, Javascript, JQuery, Ajax, MS SQL, PostgreSQL, Sidekiq"
+      },
+      {
+        "company":"TMA Solutions",
+        "title":"Senior Engineer",
+        "years":"January 2016 - March 2016",
+        "description":"Responsibilities: Developing new features for the production of a web application, Handling bugs raised by customers/QA, Support team member to solve problems while working, Contribute ideas or solutions to team. Technologies: C#, ASP.NET, Winform, Android, CakePHP, Javascript, JQuery, Ajax, MS SQL"
+      },
+      {
+        "company":"TMA Solutions",
+        "title":"Software Engineer",
+        "years":"February 2013 - January 2016",
+        "description":"Responsibilities: Developing new features for the production of a web application, Handling bugs raised by customers/QA, Support team member to solve problems while working, Contribute ideas or solutions to team. Technologies: C#, ASP.NET, Winform, Android, CakePHP, Javascript, JQuery, Ajax, MS SQL"
+      },
+      {
+        "company":"Xanh Biec Computing Software Development",
+        "title":"Software Engineer",
+        "years":"October 2011 - February 2013",
+        "description":"Responsibilities: Developing new features for the production of a web application, Handling bugs raised by customers/QA. Technologies: C#, ASP.NET, Javascript, JQuery, Ajax, MS SQL"
+      }
+    ],
+    "skills":[
+      {
+        "name":"C# .NET",
+        "level":"80%"
+      },
+      {
+        "name":"Ruby on Rails",
+        "level":"70%"
+      },
+      {
+        "name":"Laravel",
+        "level":"70%"
+      },
+      {
+        "name":"Javascript",
+        "level":"65%"
+      },
+      {
+        "name":"Coffeescript",
+        "level":"50%"
+      },
+      {
+        "name":"JQuery",
+        "level":"65%"
+      },
+      {
+        "name":"Ajax",
+        "level":"60%"
+      },
+      {
+        "name":"CSS 3",
+        "level":"60%"
+      },
+      {
+        "name":"HTML 5",
+        "level":"60%"
+      },
+      {
+        "name":"Bootstrap",
+        "level":"70%"
+      },
+      {
+        "name":"MS SQL",
+        "level":"70%"
+      },
+      {
+        "name":"PostgreSQL",
+        "level":"60%"
+      },
+      {
+        "name":"Team Work",
+        "level":"70%"
+      },
+      {
+        "name":"Hard Work",
+        "level":"80%"
+      },
+      {
+        "name":"Creativity",
+        "level":"65%"
+      },
+      {
+        "name":"Communication",
+        "level":"55%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Akouba by Velocity Solutions",
+        "category":"With Akouba’s industry-leading digital lending platform, financial institutions can now provide affordable and efficient loans to their consumer and business account holders!",
+        "image":"akouba.jpeg",
+        "url":"https://myvelocity.com/solutions/digital-lending/digital-platform-for-consumer-and-business-lending/akouba/"
+      },
+      {
+        "title":"FM:Interact",
+        "category":"Ppowerful web-based facility management tools that helps organizations improve their space, occupancy, assets, moves, maintenance, leases and property management. Whether your real estate or facilities portfolio is small or large.",
+        "image":"fmsystem.jpeg",
+        "url":"http://www.fmsystems.com"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"resume-website.jpg",
+        "url":""
+      },
+      {
+        "title":"Tambour Website",
+        "category":"Website I build for a painting company from Isarel",
+        "image":"tambour.png",
+        "url":"https://www.tambour.vn"
+      },
+      {
+        "title":"Tambour Website",
+        "category":"Website I build for E-commerce purpose",
+        "image":"tambour.png",
+        "url":"http://maylockhongkhi.tambour.vn/"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user":"Kareem Abdul Jabbar"
+      },
+      {
+        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user":"Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
