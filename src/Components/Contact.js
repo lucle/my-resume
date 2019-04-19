@@ -35,10 +35,11 @@ class Contact extends Component {
          </div>
 
          <div className="row">
+            <div className="two columns"></div>
             <div className="five columns">
                <img className="profile-pic"  src={profilepic} alt="Luc Le Profile Pic" />
             </div>
-            <div className="seven columns">
+            <div className="five columns">
             <h4>Address and Phone</h4>
 					   <p className="address">
 						   {name}<br />
