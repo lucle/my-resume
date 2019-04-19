@@ -5,6 +5,7 @@ class Resume extends Component {
 
     if(this.props.data){
       var skillmessage = this.props.data.skillmessage;
+      var techmessage = this.props.data.techmessage;
       var education = this.props.data.education.map(function(education){
         return <div key={education.school}><h3>{education.school}</h3>
         <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
@@ -20,6 +21,14 @@ class Resume extends Component {
         var className = 'bar-expand '+skills.name.toLowerCase();
         return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
       })
+      var techs = this.props.data.techs.map(function(techs){
+        var projectImage = 'images/tech/'+techs.image;
+          return <div key={techs.name} className="columns feature-item">
+                    <img className='skill' alt={techs.name} src={projectImage} />
+                    <h5>{techs.name}</h5>
+                    <p>{techs.description}</p>
+                 </div>
+        })     
     }
 
     return (
@@ -49,7 +58,7 @@ class Resume extends Component {
          <div className="nine columns main-col">
           {work}
         </div>
-    </div>
+      </div>
 
 
 
@@ -70,6 +79,20 @@ class Resume extends Component {
 					</ul>
 				</div>
 			</div>
+
+      <div className="row tech">
+
+      <div className="three columns header-col">
+            <h1><span>Favorite Tech</span></h1>
+         </div>
+
+         <div>
+           <div className="nine columns main-col"><p className="lead center">{techmessage}</p></div>
+				   <ul className="bgrid-quarters s-bgrid-thirds cf">
+					  {techs}
+					 </ul>
+			  </div>
+      </div>
       </div>
    </section>
     );

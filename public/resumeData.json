@@ -41,6 +41,7 @@
   },
   "resume":{
     "skillmessage":"Over 5 years of experiences in software engineering. 3 years+ of experience .Net developer, experiences on working with ASP.NET - applications from small to big scale with full understanding of most of the software development process models: waterfall, SRUM.",
+    "techmessage" :"I'm a Luc Le and am always interested in playing around with new technologies but these are the ones that have really won me over.",
     "education":[
       {
         "school":"FPT-Aptech",
@@ -133,6 +134,43 @@
       {
         "name":"Communication",
         "level":"55%"
+      }
+    ],
+    "techs":[
+      {
+        "name":"Git",
+        "description":"I use Git for all of my projects so far. I have used Git for version control.",
+        "image":"git.jpg"
+      },
+      {
+        "name":".NET",
+        "description":"I have worked with many programming languages and frameworks. However, I enjoy .NET because it is free and open-source, can run in cross platforms like: Linux, Mac, Windows, and it has a huge community.",
+        "image":"microsoft-net.jpg"
+      },
+      {
+        "name":"Ruby On Rails",
+        "description":"I enjoy Ruby on Rails for it's ease of configuration and its ability to get a full stack prototype up and running quickly. I am using Ruby on Rails in a team for Akouba (below in portfolio)",
+        "image":"ror.jpg"
+      },
+      {
+        "name":"React Js",
+        "description":"I am fairly new to React and really did not like it at first. It has grown on me though and I will continue to use it going forward. I have built a ReactJS based resume-website template (link below in portfolio) which I used as a starting point for this personal site.",
+        "image":"react.jpg"
+      },
+      {
+        "name":"Bootstrap 4",
+        "description":"I use Bootstrap more often than not when designing the layout for my sites. It is the framework I am most familiar with and can therefore design more quickly than with others.",
+        "image":"bootstrap.jpg"
+      },
+      {
+        "name":"PostgreSQL",
+        "description":"I have used many different database systems and am better educated and experienced with Relational Databases. However, for many applications, the ease of use of PostgreSQL better suits my needs and it is much more enjoyable to work with",
+        "image":"postgresql.jpg"
+      },
+      {
+        "name":"Heroku",
+        "description":"I use Heroku as my hosting platform for my projects because so far they are all unpaid and their free tier is convenient. I also appreciate its integration with Github for such simple deployment.",
+        "image":"heroku.jpg"
       }
     ]
   },
